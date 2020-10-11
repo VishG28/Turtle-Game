@@ -1,31 +1,40 @@
 import random
 import turtle as trtl
 
-painter = trtl.Turtle()
+grid = trtl.Turtle()
 R1 = trtl.Turtle()
+R2 = trtl.Turtle()
+R3 = trtl.Turtle()
+R4 = trtl.Turtle()
+R5 = trtl.Turtle()
+B1 = trtl.Turtle()
+B2 = trtl.Turtle()
+B3 = trtl.Turtle()
+B4 = trtl.Turtle()
+B5 = trtl.Turtle()
 
-painter.penup()
-painter.goto(50,50)
-painter.setheading(-180)
-painter.pendown()
+grid.penup()
+grid.goto(50,50)
+grid.setheading(-180)
+grid.pendown()
 x = 0
 while (x<2):
-  painter.forward(200)
-  painter.left(90)
-  painter.forward(150)
-  painter.left(90)
+  grid.forward(200)
+  grid.left(90)
+  grid.forward(150)
+  grid.left(90)
   x += 1
 
-painter.penup()
-painter.goto(75,75)
-painter.setheading(-180)
-painter.pendown()
+grid.penup()
+grid.goto(75,75)
+grid.setheading(-180)
+grid.pendown()
 x = 0
 while (x<2):
-  painter.forward(250)
-  painter.left(90)
-  painter.forward(200)
-  painter.left(90)
+  grid.forward(250)
+  grid.left(90)
+  grid.forward(200)
+  grid.left(90)
   x += 1
 
 R1.penup()
