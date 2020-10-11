@@ -29,7 +29,7 @@ while (x < 2):
 x = 0 
 xinitial = -225
 while (x < 11):
-    xinitial += 37.5
+    xinitial += 37.501
     painter.penup()
     painter.goto(xinitial, 150)
     painter.setheading(270)
